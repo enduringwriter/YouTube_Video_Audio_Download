@@ -10,7 +10,7 @@ def download_video(url):
     ydl_opts = {
         'format': 'best',
         # 'format': 'best'/'bestaudio',   # Download the best quality video/audio
-        'outtmpl': '%(title)s.%(ext)s',  # Save the file with the video title as the filename
+        'outtmpl': '~/Desktop/%(title)s.%(ext)s',  # Save the file with the video title as the filename. Save to desktop.
         'noplaylist': True,              # Only download a single video, not a playlist
     }
 
